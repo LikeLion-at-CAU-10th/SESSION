@@ -2,5 +2,6 @@
 
 
 
-| Week |   Date   | Lecturer |   | Detail |
-| :---: | :----------: | :---------------: | :---: | :---: |
+| Week |   Date   | Lecturer | Subject |  
+| :---: | :-----: | :------: | :------: |
+| Week 1| 2022.03.23| unanchoi | Web Service Basic,HTML, CSS|

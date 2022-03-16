@@ -62,12 +62,41 @@
         }
         
         .content-box {
-            width: 30vh;
+            width: 30vw;
             height: 50vh;
         }
 
         .introduce-box {
             position:absolute;
+            width: 30vw;
+        }
+        
+        .insta_a {
+            display: block;
+            width: 30px;
+            height: 30px;
+        }
+
+        .github_a {
+        
+        }
+        
+
+        .github_image {
+            width: 30px;
+            height: 30px;
+            margin : 0 10vw 0 10vw;
+
+        }
+
+        .instagram_image {
+            width: 30px;
+            height: 30px;
+            margin : 0 10vw 0 10vw;
+        }
+
+        .sns_box {
+            display: inline;
         }
         
     </style>
@@ -92,18 +121,26 @@
             <a>
                 <image src="Na.png" width = 300 height = 300></image>
             </a>
-            <p>안녕하세요. 저는 최윤한입니다.
+            <p>안녕하세요. 코딩으로 가치를 만들어내고 싶은
+                개발자 최윤한입니다. 
             </p>
+
+            <a href = "http://instagram.com/unanc2" class = "insta_a"><img src ="../src/instagram.png" class = "instagram_image"/></a>
+            <a href = "http://github.com/unanchoi" class ="github_a"><img src = "../src/github-icon.png" class = "github_image" /> </a>
         </div>
 
         <div>
 
-            <a class="instaram-image">
-                <image></image>
-            </a>
-            <a class="github-image">
-                <image></image>
-            </a>
+            <div class = "sns_box">
+                <a class="instaram-image">
+                    <image></image>
+                </a>
+                <a class="github-image">
+                    <image></image>
+                </a>
+            </div>
+
+            
         </div>
         <image />
 
