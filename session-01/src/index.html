@@ -6,101 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>자기소개 페이지</title>
-    <style>
-        html {
-            width: 100%;
-            height: 100%;
 
-        }
-        body {
-            width: 100vw;
-            height: 100vh;
-            background-color: black;
-            color: white;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            
-          
-        }
-
-        nav {
-            
-            position: fixed;
-            
-            left: 0;
-            top: 0;
-            width: 100vw;
-            height: 5vh;
-            background-color: rgb(216, 126, 8);
-        }
-
-        nav ul {
-            width: 100%;
-            height: 5%;
-            position: inherit;
-            list-style-type: none;
-            font-size: 20px;
-            margin-bottom: 10px;
-            margin-top: 5px;
-            
-        }
-
-        nav ul li {
-            display: inline;
-            float: left;
-            margin-left: 20px;
-            margin-bottom: 20px;
-        }
-
-    
-
-        footer {
-            position: fixed;
-            bottom: 0%;
-        }
-        
-        .content-box {
-            width: 30vw;
-            height: 50vh;
-        }
-
-        .introduce-box {
-            position:absolute;
-            width: 30vw;
-        }
-        
-        .insta_a {
-            display: block;
-            width: 30px;
-            height: 30px;
-        }
-
-        .github_a {
-        
-        }
-        
-
-        .github_image {
-            width: 30px;
-            height: 30px;
-            margin : 0 10vw 0 10vw;
-
-        }
-
-        .instagram_image {
-            width: 30px;
-            height: 30px;
-            margin : 0 10vw 0 10vw;
-        }
-
-        .sns_box {
-            display: inline;
-        }
-        
-    </style>
-
+    <link rel="stylesheet" src="./css/index.css">
 </head>
 
 
@@ -115,45 +22,41 @@
         </nav>
 
     </header>
-    <div class="content-box">
 
+    <section>
+    <div class="content-box">
         <div class="introduce-box">
             <a>
                 <image src="Na.png" width = 300 height = 300></image>
             </a>
             <p>안녕하세요. 코딩으로 가치를 만들어내고 싶은
-                개발자 최윤한입니다. 
+                개발자 최윤한입니다.
             </p>
 
-            <a href = "http://instagram.com/unanc2" class = "insta_a"><img src ="../src/instagram.png" class = "instagram_image"/></a>
-            <a href = "http://github.com/unanchoi" class ="github_a"><img src = "../src/github-icon.png" class = "github_image" /> </a>
+
+            <a href = "http://instagram.com/unanc2" ><img src = class = "instagram_image"/></a>
+            <a href = "http://github.com/unanchoi" ><img src = class = "github_image" /> </a>
         </div>
 
-        <div>
+        <div class ="sns_box">
 
-            <div class = "sns_box">
-                <a class="instaram-image">
-                    <image></image>
-                </a>
-                <a class="github-image">
-                    <image></image>
-                </a>
-            </div>
-
-            
+            <a class="instaram-image">
+                <image></image>
+            </a>
+            <a class="github-image">
+                <image></image>
+            </a>
         </div>
         <image />
 
     </div>
-
+</section>
     <footer>
         <div>
             <p>Copylight &copy;
                 unanchoi. All rights reserved.
             </p>
         </div>
-
-
     </footer>
 
 
