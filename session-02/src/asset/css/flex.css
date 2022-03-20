@@ -1,0 +1,32 @@
+body{
+  background-color: beige;
+  margin:30px;
+}
+
+.container {
+  display:flex;
+  background-color:beige;
+  height: 100vh;
+}
+
+.item {
+  width:80px;
+  height:80px;
+  border:2px dotted black;
+}
+
+.item1{
+  background-color: rgb(190, 255, 195);
+}
+.item2{
+  background-color: rgb(237, 248, 136);
+}
+.item3{
+  background-color: rgb(192, 208, 241);
+}
+.item4{
+  background-color: rgb(255, 226, 198);
+}
+.item5{
+  background-color: rgb(255, 190, 252);
+}
