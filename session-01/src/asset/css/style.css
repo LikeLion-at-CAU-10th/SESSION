@@ -115,6 +115,10 @@ h3 {
   font-size: 30px;
 }
 
+.name:hover {
+  color: #ffa111;
+}
+
 meter {
   width: 100px;
   height: 20px;
