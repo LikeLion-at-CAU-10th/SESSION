@@ -7,37 +7,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>자기소개 페이지</title>
 
-    <link rel="stylesheet" href="/asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/style.css">
 </head>
 
 
 <body>
+    <!-- nav  -->
     <header>
         <nav class="navbar">
+            
+            <!-- 단축키 ul>li*2 -->
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="aboutme.html">About us</a></li>
-                <a href = "http://instagram.com/unanc2" ><img src ="/asset/image/instagram.png" class="instagram-image" /></a>
-                <a href = "http://github.com/unanchoi" ><img src = "/asset/image/github-icon.png" class="github-image" /></a>
+                <li><a href="...">About us</a></li>
+                
             </ul>
-
         </nav>
     </header>
 
+    <!-- image -->
     <section>
     <div class="content-box">
         <div class="introduce-box">
-        <div class="image_1"> <image src="/asset/image/na.png" width = 200px height = 200px></image></div>
-        <div class="image_2"><image src="/asset/image/na2.jpeg" width = 200px height = 200px></image></div>
-        <div class="image_3"><image src="/asset/image/na3.jpeg" width = 200px height = 200px></image></div>
-            
+        <div class="image_1"> <image src="asset/image/na.png" width = 200px height = 200px></image></div>
+        <div class="image_2"><image src="asset/image/na2.jpeg" width = 200px height = 200px></image></div>
+        <div class="image_3"><image src="asset/image/na3.jpeg" width = 200px height = 200px></image></div>
         </div>
     </section>
 
+    <!-- sns -->
+    <section>
+        <a href = "http://instagram.com/unanc2" target="_blank"><img src ="asset/image/instagram.png" class="instagram-image" /></a>
+        <a href = "http://github.com/unanchoi" ><img src = "asset/image/github-icon.png" class="github-image" /></a>
+    </section>
+
+    <!-- 본문 -->
     <section>
         <p class = "name"> 최윤한</p>
-        <p> <strong> ㅕ</strong></p>
+        <!-- strong 태그 같이 스타일이 있는 태그가 있지만, 스타일은 css -->
+        <p> <strong> Developer</strong></p>
         <h2>Major : <span style="color: tomato;"> Mathematics</span></h2>
+
+        <h2>Stack</h2>
+
+        <p>Python : <meter value="90" min ="0" max="100" low="30" high="70" optimum="80" ></meter></p>
+        <p>Java : <meter value="30" min ="0" max="100" low="30" high="70" optimum="80" ></meter></p>
+        <p>JS : <meter value="20" min ="0" max="100" low="30" high="70" optimum="80" ></meter></p>
+        <p>AI : <meter value="50" min ="0" max="100" low="30" high="70" optimum="80" ></meter></p>
+        <p>Django : <meter value="60" min ="0" max="100" low="30" high="55" optimum="80" ></meter></p>
+        <p>Spirng : <meter value="40" min ="0" max="100" low="30" high="70" optimum="80" ></meter></p>
+        
         <h2> Timeline </h2>
     <p>2016.3 ~ now </p>
     <p> Mathematics in CAU</p>
@@ -47,7 +66,7 @@
 
 
     <p> 2021.12 ~ now</p>
-    <p> Likelion 10th representative teachers</p>
+    <p> Likelion 10th representative teacher</p>
 
     <p> 2022.3 ~ now</p>
     <p> CUAI 5th</p>
@@ -73,6 +92,7 @@
 </section>
 
 
+<!-- footer -->
     <footer>
         <div>
             <p>Copylight &copy;
@@ -80,8 +100,6 @@
             </p>
         </div>
     </footer>
-
-
 
 </body>
 
