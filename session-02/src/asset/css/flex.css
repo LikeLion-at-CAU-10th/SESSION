@@ -7,9 +7,9 @@ body{
   /* display:flex; */
   background-color:beige;
   height: 100vh;
-  /* flex-direction: row;
-  flex-wrap: wrap-reverse; */
-  /* flex-flow : row wrap; */
+  /* flex-direction: column; */
+  /* flex-wrap: wrap-reverse; */
+  /* flex-flow : column wrap; */
   /* justify-content: space-evenly; */
 }
 

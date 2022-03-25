@@ -1,0 +1,63 @@
+body{
+  background-color: white;
+  margin : 50px;
+}
+
+.layout-container {
+  background-color: beige;
+  display : flex;
+  flex-direction: column;
+  width : 800px;
+  height : 600px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.layout-title {
+  background-color: rgb(255, 224, 229);
+  flex-basis : 15%;
+  width : 90%;
+  line-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recent-content {
+  display : flex;
+  flex-basis : 30%;
+  width : 90%;
+  justify-content: space-between;
+}
+
+.recent {
+  display: flex;
+  background-color: rgb(255, 249, 169);
+  flex-basis: 23%;
+  align-items: center;
+  justify-content: center;
+}
+
+.popular-content {
+  display : flex;
+  flex-basis : 50%;
+  width : 90%;
+  justify-content: space-between;
+}
+
+.popular {
+    background-color: rgb(196, 250, 232);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.polular1 {
+  flex-basis: 74%;
+}
+
+.polular2 {
+  flex-basis: 23%;
+}
+
+
