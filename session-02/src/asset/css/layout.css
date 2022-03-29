@@ -1,63 +1,63 @@
 body{
-  background-color: white;
-  margin : 50px;
+  background-color: rgb(255, 255, 255);
+  margin: 50px;
 }
 
 .layout-container {
   background-color: beige;
+  width: 800px;
+  height: 600px;
   display : flex;
   flex-direction: column;
-  width : 800px;
-  height : 600px;
   justify-content: space-evenly;
-  align-items: center;
 }
 
 .layout-title {
-  background-color: rgb(255, 224, 229);
-  flex-basis : 15%;
-  width : 90%;
-  line-height: 100%;
+  flex-basis: 13%;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-.recent-content {
-  display : flex;
-  flex-basis : 30%;
-  width : 90%;
-  justify-content: space-between;
+.title{
+  background-color: rgb(250, 212, 244);
+  width: 97%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recent-container {
+  flex-basis: 28%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .recent {
-  display: flex;
-  background-color: rgb(255, 249, 169);
+  background-color: rgb(255, 255, 172);
   flex-basis: 23%;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.popular-content {
-  display : flex;
-  flex-basis : 50%;
-  width : 90%;
-  justify-content: space-between;
+.popular-container {
+  flex-basis: 53%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .popular {
-    background-color: rgb(196, 250, 232);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: rgb(179, 255, 230);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.polular1 {
-  flex-basis: 74%;
+.popular1{
+  flex-basis: 72%;
 }
 
-.polular2 {
-  flex-basis: 23%;
+.popular2{
+  flex-basis:22%;
 }
-
 

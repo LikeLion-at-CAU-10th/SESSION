@@ -1,16 +1,16 @@
 body{
   background-color: beige;
-  margin : 30px;
+  margin : 0;
 }
 
 .container {
-  /* display:flex; */
+  display:flex;
   background-color:beige;
+  flex-direction: column;
   height: 100vh;
-  /* flex-direction: column; */
-  /* flex-wrap: wrap-reverse; */
-  /* flex-flow : column wrap; */
-  /* justify-content: space-evenly; */
+  /* flex-wrap: wrap; */
+  /* flex-flow : column nowrap; */
+  /* justify-content: center; */
 }
 
 .item {
@@ -18,26 +18,21 @@ body{
   height:80px;
   box-sizing: border-box;
   border:2px dotted black;
-  /* flex-basis: 20%; */
+  /* flex-basis: 5%; */
 }
 
 .item1{
   background-color: rgb(190, 255, 195);
-  
 }
 .item2{
-  background-color: rgb(237, 248, 136);
-  
+  background-color: rgb(237,  248, 136);
 }
 .item3{
   background-color: rgb(192, 208, 241);
-  
 }
 .item4{
   background-color: rgb(255, 226, 198);
-  
 }
 .item5{
   background-color: rgb(255, 190, 252);
-  
 }
