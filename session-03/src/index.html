@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode</title>
+
+    <!-- font awesome5을 써서 moon, sun 아이콘 불러오기 -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <div>
+        <!-- input 태그 : 사용자에게 선택지를 제공하는 태그 -->
+        <input type="checkbox" class="checkbox" id="checkbox">
+        <!-- label for='id속성' / input 태그를 정의하기 위한 태그 -->
+        <!-- 토글 -->
+        <label for="checkbox" class="label">
+            <!-- 아이콘 요소 생성 i- fas fa- 형식은 아이콘 이름 -->
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <!-- 다크모드 전환 원 -->
+            <div class="ball"></div>
+        </label>
+    </div>
+
+    <p>모드 변경</p>
+</body>
+</html>
