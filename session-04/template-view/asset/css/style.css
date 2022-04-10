@@ -76,8 +76,12 @@ nav ul li {
   letter-spacing: 2px;
 }
 
-.message-section {
-  padding: 100px 0;
+section {
+  padding: 70px 0;
+}
+
+section:nth-child(1) {
+  padding-top: 0;
 }
 
 .section-title {
@@ -95,4 +99,47 @@ nav ul li {
   border-radius: 14px;
   background-color: #262626;
   margin: .4rem 0;
+}
+
+.message-form {
+  text-align: center;
+}
+
+.message-form input {
+  border-radius: 4px;
+  padding: 0 .4rem;
+}
+
+.message-content {
+  width: 30rem;
+  height: 2rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.message-sender {
+  width: 10rem;
+  height: 2rem;
+  line-height: 2rem; 
+  font-size: 1.2rem;
+}
+
+.send-btn {
+  display: inline-block;
+  width: 100px;
+  height: 1rem;
+  margin: 2rem 0;
+  padding: 1rem 0;
+  background-color: #ec9170;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all .4s ease-out;
+}
+
+.send-btn:hover {
+  color:#ec9170;
+  background-color: #000000;
+  border: 2px solid #ec9170;
 }
