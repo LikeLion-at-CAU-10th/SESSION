@@ -75,3 +75,24 @@ nav ul li {
   margin: 8px 0;
   letter-spacing: 2px;
 }
+
+.message-section {
+  padding: 100px 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px 0;
+  color: #00eeff;
+  font-family: Serpentine;
+}
+
+.board-row {
+  font-size: 1.3rem;
+  padding: 18px;
+  border-radius: 14px;
+  background-color: #262626;
+  margin: .4rem 0;
+}
