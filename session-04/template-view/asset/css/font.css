@@ -1,0 +1,34 @@
+@font-face {
+  font-family: Alphacentauri;
+  src: url("../font/Alphacentauri.ttf");
+}
+
+@font-face {
+  font-family: Serpentine;
+  src: url("../font/Serpentine.ttf");
+}
+
+@font-face {
+  font-family: Blacksword;
+  src: url("../font/Blacksword.otf");
+}
+
+@font-face {
+  font-family: OstrichSansInline-Italic;
+  src: url("../font/OstrichSansInline-Italic.otf");
+}
+
+@font-face {
+  font-family: OstrichSansInline-Medium;
+  src: url("../font/OstrichSans-Medium.otf");
+}
+
+@font-face {
+  font-family: OstrichSans-Bold;
+  src: url("../font/OstrichSans-Bold.otf");
+}
+
+@font-face {
+  font-family: Crashnumberinggothic-MAjp;
+  src: url("../font/Crashnumberinggothic-MAjp.ttf");
+}
