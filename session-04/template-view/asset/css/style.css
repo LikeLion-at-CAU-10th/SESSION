@@ -6,12 +6,14 @@ html, body {
 
 .content {
   padding-top: 100px;
+  max-width: 60rem;
+  margin: 0 auto;
 }
 
 nav {
   position: fixed;
   color: #ffffff;
-  width: calc(100vw - 20px);
+  width: calc(100vw - 60px);
   height: 45px;
   padding: 10px 30px;
   background-color: rgba(0, 0, 0, 0.8);
@@ -34,7 +36,7 @@ nav ul li {
   transition: all 0.2s ease-out;
 }
 
-.profile-logo {
+.group-logo {
   position: absolute;
   float: left;
   width: 50px;
@@ -44,6 +46,32 @@ nav ul li {
   background-size: contain;
 }
 
+.group-logo:hover {
+  transform: rotate(-360deg);
+  transition: all 1.2s ease-out;
+}
+
 .my-info {
-  text-align: center;
+  display: flex;
+}
+
+.profile-img {
+  display: inline-block;
+  max-width: 320px;
+}
+
+.profile-img img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.detail-info {
+  padding-left: 2.35rem;
+  padding-top: 4rem;
+}
+
+.detail-info-list {
+  font-size: 1.4rem;
+  margin: 8px 0;
+  letter-spacing: 2px;
 }
