@@ -1,0 +1,145 @@
+html, body {
+  background-color: #000000;
+  margin: 0;
+  color: #efefef;
+}
+
+.content {
+  padding-top: 100px;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+nav {
+  position: fixed;
+  color: #ffffff;
+  width: calc(100vw - 60px);
+  height: 45px;
+  padding: 10px 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-family: Serpentine;
+  z-index: 10;
+}
+
+nav ul {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding-left: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 4px;
+  font-size: 17px;
+  transition: all 0.2s ease-out;
+}
+
+.group-logo {
+  position: absolute;
+  float: left;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: url("../image/logo.png");
+  background-size: contain;
+}
+
+.group-logo:hover {
+  transform: rotate(-360deg);
+  transition: all 1.2s ease-out;
+}
+
+.my-info {
+  display: flex;
+}
+
+.profile-img {
+  display: inline-block;
+  max-width: 320px;
+}
+
+.profile-img img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.detail-info {
+  padding-left: 2.35rem;
+  padding-top: 4rem;
+}
+
+.detail-info-list {
+  font-size: 1.4rem;
+  margin: 8px 0;
+  letter-spacing: 2px;
+}
+
+section {
+  padding: 70px 0;
+}
+
+section:nth-child(1) {
+  padding-top: 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px 0;
+  color: #00eeff;
+  font-family: Serpentine;
+}
+
+.board-row {
+  font-size: 1.3rem;
+  padding: 18px;
+  border-radius: 14px;
+  background-color: #262626;
+  margin: .4rem 0;
+}
+
+.message-form {
+  text-align: center;
+}
+
+.message-form input {
+  border-radius: 4px;
+  padding: 0 .4rem;
+}
+
+.message-content {
+  width: 30rem;
+  height: 2rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.message-sender {
+  width: 10rem;
+  height: 2rem;
+  line-height: 2rem; 
+  font-size: 1.2rem;
+}
+
+.send-btn {
+  display: inline-block;
+  width: 100px;
+  height: 1rem;
+  margin: 2rem 0;
+  padding: 1rem 0;
+  background-color: #ec9170;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all .4s ease-out;
+}
+
+.send-btn:hover {
+  color:#ec9170;
+  background-color: #000000;
+  border: 2px solid #ec9170;
+}
