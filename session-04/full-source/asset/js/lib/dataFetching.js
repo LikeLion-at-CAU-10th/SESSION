@@ -54,10 +54,10 @@ var fetchGET = function (host, path, queryStringObject, headers) {
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
-                    url = "https://".concat(host, "/").concat(path);
-                    if (Object.keys({}).length) {
-                        url += "/?";
-                        Object.keys({}).forEach(function (key) {
+                    url = "".concat(host).concat(path);
+                    if (Object.keys(queryStringObject).length) {
+                        url += "?";
+                        Object.keys(queryStringObject).forEach(function (key) {
                             if (url[url.length - 1] !== "?") {
                                 url += "&";
                             }
@@ -92,7 +92,7 @@ var fetchPOST = function (host, path, body, headers) {
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
-                    url = "https://".concat(host, "/").concat(path);
+                    url = "".concat(host).concat(path);
                     options = {
                         method: "POST",
                         header: __assign({ "Content-Type": "application/json" }, headers),

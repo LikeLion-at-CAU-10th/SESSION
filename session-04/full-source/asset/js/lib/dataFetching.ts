@@ -4,11 +4,11 @@ var fetchGET = async (
   queryStringObject: Object = {},
   headers: Object = {}
 ) => {
-  let url = `https://${host}/${path}`;
-  if (Object.keys({}).length) {
-    url += "/?";
+  let url = `${host}${path}`;
+  if (Object.keys(queryStringObject).length) {
+    url += "?";
 
-    Object.keys({}).forEach((key) => {
+    Object.keys(queryStringObject).forEach((key) => {
       if (url[url.length - 1] !== "?") {
         url += "&";
       }
@@ -39,7 +39,7 @@ var fetchPOST = async (
   body: string,
   headers: Object = {}
 ) => {
-  const url = `https://${host}/${path}`;
+  const url = `${host}${path}`;
   const options = {
     method: "POST",
     header: {
