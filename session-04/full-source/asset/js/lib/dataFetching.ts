@@ -1,4 +1,4 @@
-const fetchGET = async (
+var fetchGET = async (
   host: string,
   path: string,
   queryStringObject: Object = {},
@@ -33,7 +33,7 @@ const fetchGET = async (
   }
 };
 
-const fetchPOST = async (
+var fetchPOST = async (
   host: string,
   path: string,
   body: string,
