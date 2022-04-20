@@ -31,13 +31,8 @@ async function getFootprint(name) {
   });
 }
 
-window.onload = () => {
-  // 웹 페이지의 모든 element(HTML, CSS)가 화면에 띄워지면 실행됩니다.
-  console.log("page load!");
+// 프로필 정보를 서버에서 받아와서 DOM을 업데이트 합니다.
+getProfileData(NAME);
 
-  // 프로필 정보를 서버에서 받아와서 DOM을 업데이트 합니다.
-  getProfileData(NAME);
-
-  // 메시지를 서버에서 받아와서 DOM을 업데이트 합니다.
-  getFootprint(NAME);
-};
+// 메시지를 서버에서 받아와서 DOM을 업데이트 합니다.
+getFootprint(NAME);
