@@ -6,7 +6,7 @@
 | :---: | :-----: | :------: | :------: |
 | Week 1| 2022.03.23| [unanchoi](https://github.com/unanchoi) | Web Service Basic,HTML, CSS|
 | Week 2| 2022.03.30| [yunseonyeong](https://github.com/yunseonyeong) | HTML, CSS(2) 🤘flex🤘|
-| Week 3| 2022.04.06| [jiwonjeong](https://github.com/jiwonjeong) | JS DarkMode|
+| Week 3| 2022.04.06| [Jiwon-Jeong99](https://github.com/Jiwon-Jeong99) | JS DarkMode|
 | Week 4| 2022.04.07| [youngkwon02](https://github.com/youngkwon02) | Fetching Data From Server |
 
 
