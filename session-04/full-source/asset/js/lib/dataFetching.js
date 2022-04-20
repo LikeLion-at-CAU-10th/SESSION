@@ -56,11 +56,13 @@ var fetchGET = function (host, path, queryStringObject, headers) {
                 case 0:
                     url = "https://".concat(host, "/").concat(path);
                     if (Object.keys({}).length) {
-                        url += "?";
-                        if (url[url.length - 1] !== "?") {
-                            url += "&";
-                        }
-                        Object.keys({}).forEach(function (key) { return (url += "".concat(key, "=").concat(queryStringObject[key])); });
+                        url += "/?";
+                        Object.keys({}).forEach(function (key) {
+                            if (url[url.length - 1] !== "?") {
+                                url += "&";
+                            }
+                            url += "".concat(key, "=").concat(queryStringObject[key]);
+                        });
                     }
                     options = {
                         method: "GET",

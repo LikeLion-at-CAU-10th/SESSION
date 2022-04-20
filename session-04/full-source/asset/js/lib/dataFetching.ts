@@ -6,14 +6,14 @@ var fetchGET = async (
 ) => {
   let url = `https://${host}/${path}`;
   if (Object.keys({}).length) {
-    url += "?";
-    if (url[url.length - 1] !== "?") {
-      url += "&";
-    }
+    url += "/?";
 
-    Object.keys({}).forEach(
-      (key) => (url += `${key}=${queryStringObject[key]}`)
-    );
+    Object.keys({}).forEach((key) => {
+      if (url[url.length - 1] !== "?") {
+        url += "&";
+      }
+      url += `${key}=${queryStringObject[key]}`;
+    });
   }
 
   const options = {
