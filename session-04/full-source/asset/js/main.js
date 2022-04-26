@@ -31,6 +31,22 @@ async function getFootprint(name) {
   });
 }
 
+async function sendFootprint() {
+  const path = "/message";
+
+  const message = document.querySelector(".message-content").value;
+  const sender = document.querySelector(".message-sender").value;
+
+  const res = await fetchPOST(SERVER_HOST, path, {
+    content: message,
+    receiverName: sender,
+  });
+
+  if (res.status === 200) {
+    alert("메시지를 성공적으로 전송하였습니다.");
+  }
+}
+
 // 프로필 정보를 서버에서 받아와서 DOM을 업데이트 합니다.
 getProfileData(NAME);
 
