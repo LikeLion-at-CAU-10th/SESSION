@@ -21,11 +21,8 @@ const fetchGET = async (host, path, queryStringObject = {}, headers = {}) => {
 
   const res = await fetch(url, options);
   const data = await res.json();
-  if (res.ok) {
-    return data;
-  } else {
-    throw Error(data);
-  }
+
+  return data;
 };
 
 const fetchPOST = async (host, path, body, headers = {}) => {
@@ -41,11 +38,8 @@ const fetchPOST = async (host, path, body, headers = {}) => {
 
   const res = await fetch(url, options);
   const data = await res.json();
-  if (res.ok) {
-    return data;
-  } else {
-    throw Error(data);
-  }
+
+  return data;
 };
 
 export { fetchGET, fetchPOST };
