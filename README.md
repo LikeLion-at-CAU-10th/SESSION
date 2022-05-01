@@ -9,6 +9,7 @@
 | Week 3| 2022.04.06| [Jiwon-Jeong99](https://github.com/Jiwon-Jeong99) | JS DarkMode|
 | Week 4| 2022.04.27| [youngkwon02](https://github.com/youngkwon02) | Javascript Basic & Data Fetching |
 | Week S| 2022.04.30| [myeongjunkim](https://github.com/myeongjunkim) | Python - Open API |
+| Week 5| 2022.05.04| [Seojisoo20191941](https://github.com/Seojisoo20191941) | Collaboration & Git |
 
 
 ---
