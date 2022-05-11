@@ -10,6 +10,8 @@
 | Week 4| 2022.04.27| [youngkwon02](https://github.com/youngkwon02) | Javascript Basic & Data Fetching |
 | Week S| 2022.04.30| [myeongjunkim](https://github.com/myeongjunkim) | Python - Open API |
 | Week 5| 2022.05.04| [Seojisoo20191941](https://github.com/Seojisoo20191941) | Collaboration & Git |
+| Week 6| 2022.05.11| [LikeLion 10th](https://github.com/LikeLion-at-CAU-10th) | Mini Project |
+
 
 
 ---
