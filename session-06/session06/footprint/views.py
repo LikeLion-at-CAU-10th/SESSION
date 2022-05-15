@@ -19,4 +19,12 @@ def footprint_GET(request):
 
 
 def footprint_POST(request):
-    pass
+    body_unicode = request.body.decode('utf-8')
+    body = json.loads(body_unicode)
+    Footprint.objects.create(
+        message=body['message'], receiver=body['receiver'])
+
+    return JsonResponse({
+        'status': 200,
+        'message': '메시지 전송 성공'
+    })
