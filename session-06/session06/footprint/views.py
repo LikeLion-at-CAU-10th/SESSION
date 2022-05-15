@@ -1,5 +1,6 @@
 from footprint.models import Footprint
 from django.http import JsonResponse
+import json
 
 
 def footprint_GET(request):
@@ -9,10 +10,10 @@ def footprint_GET(request):
         messages.append(footprints[i].message)
 
     return JsonResponse({
-        "status": 200,
-        "message": "Footprint 조회 성공",
-        "data": {
-            "messages": messages
+        'status': 200,
+        'message': 'Footprint 조회 성공',
+        'data': {
+            'messages': messages
         }
     })
 
