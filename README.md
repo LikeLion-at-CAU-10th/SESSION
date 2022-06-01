@@ -13,6 +13,7 @@
 | Week 6| 2022.05.11| [LikeLion 10th](https://github.com/LikeLion-at-CAU-10th) | Mini Project |
 | Week 7| 2022.05.18| [youngkwon02](https://github.com/youngkwon02) | API Server Implementation (Django) |
 | Week 8| 2022.05.25| [LikeLion 10th](https://github.com/LikeLion-at-CAU-10th) | Ideathon Team-Building |
+| Week 9| 2022.06.01| [Jiwon-Jeong99](https://github.com/Jiwon-Jeong99) | Responsive Web |
 
 
 ---
