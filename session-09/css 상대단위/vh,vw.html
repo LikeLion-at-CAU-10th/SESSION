@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 상대단위</title>
+</head>
+<body style="height:100%; width: 100%; margin:0;">
+    <!-- % vs vw -->
+    <!-- %는 부모태그를 기준으로 -->
+    <div class="parent-per" style="width:50%; background-color: brown;">
+        PARENT
+        <div class="child-per" style="width:50%; background-color: red;">
+            CHILD
+         </div>
+    </div>
+    <!-- vh,vw는 뷰포트를 기준으로 -->
+    <div class="parent-vh" style="width:50vw; height:50vh; background-color: blue;">
+        
+        <div class="child-vh" style="width:40vw; height:40vh; background-color: aqua;">
+            
+         </div>
+    </div>
+</body>
+</html>

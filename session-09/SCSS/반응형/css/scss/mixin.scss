@@ -1,0 +1,39 @@
+// mediaquery
+@import './variable.scss';
+
+@mixin respond-to($media) {
+
+    @if $media == mobile { // mobile
+  
+      @media only screen and (max-width: $tabletSize ) { @content; }
+  
+    }
+  
+    @else if $media == tablet { // tablet
+  
+      @media only screen and (min-width: $tabletSize) and (max-width: $pcSize ) { @content; }
+  
+    }
+  
+    @else if $media == pc { // pc
+  
+      @media only screen and (min-width: $pcSize) { @content; }
+  
+    }
+  
+  }
+
+  .font {
+    @include respond-to(mobile){
+      font-size: 45px;
+      background: red;
+    }
+    @include respond-to(tablet){
+      font-size: 60px;
+      background: orange;
+    }
+    @include respond-to(pc){
+      font-size: 90px;
+      background: pink;
+    };
+  }

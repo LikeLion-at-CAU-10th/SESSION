@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 상대단위</title>
+</head>
+<body>
+    <!-- em vs rem -->
+    <!-- em은 부모태그 기준으로 -->
+    <div class="parent-em" style="font-size:8em">
+        Parent
+        <div class="child-em" style="font-size:0.5em">
+            Child
+         </div>
+    </div>
+    <!-- rem은 기본 제공할당 16px을 기준으로 -->
+    <div class="parent-rem" style="font-size:8rem">
+        Parent
+        <div class="child-rem" style="font-size:0.5rem">
+            Child
+         </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+@media only screen and (max-width: 768px) {
+  .font {
+    font-size: 45px;
+    background: red;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
+  .font {
+    font-size: 60px;
+    background: orange;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .font {
+    font-size: 90px;
+    background: pink;
+  }
+}
+/*# sourceMappingURL=mixin.css.map */
